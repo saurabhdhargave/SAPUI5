@@ -1,0 +1,11 @@
+{
+  "name": "sapui5-practice",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "ui5 serve --open index.html"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^4.0.0"
+  }
+}

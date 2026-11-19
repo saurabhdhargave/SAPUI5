@@ -1,0 +1,30 @@
+<mvc:View
+    controllerName="ui5.walkthrough.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    >
+
+    <Page title="Employee Management">
+        <content>
+            <VBox class="sapUiSmallMargin">
+                <Label text="Employee Name" labelFor="inputText" />
+                <Input id="inputText" placeholder="Employee Name" />
+
+                <Label text="Email" labelFor="inputEmail" />
+                <Input id="inputEmail" placeholder="Email" />
+
+                <Label text="Department" labelFor="inputDepartment" />
+                <Input id="inputDepartment" placeholder="Department" />
+
+                <Button text="Submit" press=".onPress"/>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
+
+<!-- 
+Employee Name (Input)
+Email (Input)
+Department (Input)
+Submit (Button) -->
